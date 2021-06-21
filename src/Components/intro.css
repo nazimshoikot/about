@@ -1,0 +1,180 @@
+.self-picture {
+    height: 85vh;
+    width: auto;
+}
+
+.picture-container {
+    margin: 20px;
+}
+
+
+.greetings-container {
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.greetings-container::after {
+    content: "";
+    background: url("./../Data/hk_skyline.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    min-height: 100vh;
+
+}
+
+
+
+.greetings-message {
+    font-size: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    -webkit-text-stroke: 3px #212a49;
+}
+
+.rounded-buttons {
+    background: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: large;
+    border: 3px solid #212a49;
+    margin: 20px;
+    
+}
+
+.rounded-buttons:hover {
+    background: rgba(44, 44, 44, 0.753);
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: large;
+    border: 3px solid white;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+}
+
+
+.intro-container {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+}
+
+.inner-intro-container {
+    display: grid;
+    justify-items:right;
+
+}
+.inner-introduction-message-container {
+    width: 70%;
+    font-size: 2vh;
+    background-color: #212a49;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px rgba(48, 48, 48, 0.281) solid;
+    border-top-left-radius: 25px;
+    display: grid;
+    box-shadow: 5px 7px #212a49a2;
+}
+
+.intro-messages-container {
+    margin: 10px;
+}
+
+.intro-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.message-container-container {
+    display: flex;
+    border: 2px black solid;
+}
+
+
+/* for the arrow */
+.arrow{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+.profile-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#profile-logo-container {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,89 @@
+.projects-root-container {
+    background-color: #212a49;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    min-height: 100vh;
+}
+
+.project-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    width: 100%;
+}
+
+.project-component-container {
+    display: grid;
+    justify-items: center;
+    margin: 10px;
+}
+
+.project-items-container {
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.p-item-name {
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.p-item {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.project-logo {
+    border: 5px rgba(117, 117, 117, 0.397) solid;
+}
+
+.link-button {
+    color: #212a49;
+    background-color: white;
+    width: 170px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    justify-items: space-around;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+
+.link-button:hover {
+    cursor: pointer;
+    background-color: #8494cf;
+    color: white;
+}
+
+.link-button-container {
+    width: 100%;
+    display: grid;
+    justify-items: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.button-code-message {
+    font-size: 20px;
+    display: grid;
+    justify-items: right;
+}
+
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+}
+
+

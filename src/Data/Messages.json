@@ -1,0 +1,102 @@
+{
+    "Greetings" : "Hi, I'm Nazim",
+    "Introduction1" : "Originally from Bangladesh, I am an aspiring Software Developer currently based in Hong Kong. My interests are Machine Learning and Software development and I like working on personal and professional projects that integrate the use of these two fields. ",
+    "Introduction2" : "I completed my high school in Bangladesh at Mastermind school, completing my International IGCSEs and International Advanced Levels. I came to Hong Kong to pursue a Computer Science Degree at the University of Hong Kong and have recently graduated in June 2021. I have had a rich university experience, including studying an exchange semester at Purdue University and working for multiple promising start-ups. Currently, I am excited about starting my career at D-Engraver Limited as a Software Engineer. ",
+    "Introduction3" : "When I am not working, I keep myself entertained with light-hearted TV shows and Football. I love travelling and constantly seek out opportunities that let me travel across the globe to develop my perspective. If there is anything you would like to talk about, feel free to shoot me an email!",
+    "Education": [{
+            "degree" : "BACHELOR OF ENGINEERING",
+            "name" : "THE UNIVERSITY OF HONG KONG",
+            "year": "SEP 2017 – JUNE 2021",
+            "description": "At HKU, I finished my Bachelor of Engineering Degree, majoring in Computer Science with an additional transdisciplinary cluster in Sustaining Cities, Cultures, and the Earth. With 3 online semesters and 1 exchange semester, my university experience has been an interesting and enriching one."
+        },
+        {
+            "degree" : "BACHELOR OF SCIENCE (EXCHANGE PROGRAM)",
+            "name" : "PURDUE UNIVERSITY",
+            "year": "AUG 2019 – DEC 2019",
+            "result": "CGPA: 3.74",
+            "major": "Computer Science",
+            "description": "I was sponsored by HKU to pursue an exchange semester at Purdue. I studied under the Science Faculty with the major of Computer Science. A different environment, course structure, and community allowed me to immerse myself in a new atmosphere and develop my perspective. "
+
+        },
+        {
+            "degree" : "International Advanced Levels and IGCSE",
+            "name" : "MASTERMIND SCHOOL",
+            "year": "JUL 2013 – JUN 2016",
+            "result": "5 A* in A Levels, 6A* and 2A in O Levels",
+            "major": "Science",
+            "description": "I completed my high-school at Mastermind, taking the IGCSE and International Advanced Levels exam during that time. I received 6A* and 2A in my IGCSEs, and 5A* in my International Advanced Levels, which allowed me to pursue my further studies abroad on a full scholarship."
+        }
+        
+    ],
+    "Experiences": [
+        {
+            "name" : "D-ENGRAVER LIMITED",
+            "year" : "AUGUST 2021 – PRESENT",
+            "position" : "SOFTWARE DEVELOPMENT ENGINEER",
+            "description": "Following my graduation, I will be joining D-Engraver as a full-time Software Development Engineer. My work will focus around software development of blockchain related applications."
+        },
+        {
+            "name" : "EWALKER MANAGEMENT LTD",
+            "year" : "JUN 2019 – MAY 2021",
+            "position" : "ASSOCIATE CONSULTANT – SOFTWARE ENGINEER",
+            "description": "I joined EWalker after my sophomore year and have been working with them as a software developer since then until my graduation. I developed software for automation of security vulnerabilities detection and generation of reports. During the later stages, I helped with creating an internal website that integrates numerous different parsers and analyzed and visualized data using Elasticsearch and Kibana."
+        },
+        {
+            "name" : "AZEUS SYSTEMS LIMITED",
+            "year" : "AUG 2020 – MAY 2021",
+            "position" : "FINAL YEAR INDUSTRY PROJECT ",
+            "description": "For my final year project at university, I worked with Azeus to create a semantic search engine that recognized intent in real time and helped them retrieve relevant documents from their database. "
+        },
+        {
+            "name" : "THE UNIVERSITY OF HONG KONG",
+            "year" : "SEP 2018 – DEC 2018, JAN 2020 – JUN 2020",
+            "position" : "TEACHING ASSISTANT – COMPUTER PROGRAMMING ",
+            "description": "I have worked as a teaching assistant for multiple courses at the University of Hong Kong during the last 3 years of my university life. In these roles, my responsibilities included helping students without prior programming knowledge to understand and implement algorithms."
+        },
+        {
+            "name" : "SCOOLSMART",
+            "year" : "APR 2019 – JUN 2019",
+            "position" : "TECHNOLOGY INTERN ",
+            "description": "In my sophomore year, I briefly worked for an education start-up. In this position, I tested the application and reported to development team to fix errors and ensure cohesion of the user-interface."
+        },
+        {
+            "name" : "THE COACH",
+            "year" : "JUNE 2016 – MAY 2017",
+            "position" : "TEACHING ASSISTANT",
+            "description": "After my high school graduation, I worked at The Coach as a teaching assistant, teaching IGCSE and A Level students Accounting. I designed and taught lessons, and created appropriate assessment materials to prepare students for their upcoming exams."
+        }
+    ],
+    "Projects" : [
+        {
+            "name" : "SEMANTIC SEARCH ENGINE",
+            "description" : "My final year project involved creating a Semantic Search Engine. A Natural Language Processing model was made with a RoBERTa (Robustly Optimized Bidirectional Encoder Represenation Transformer approach) model integrated with Sentence-BERT. The model was then combined with a Web application created with ReactJS and Django such that user intent could be understood in real-time to retrieve relevant documents to the user. ",
+            "link" : "https://github.com/nazimshoikot/Semantic_Search_Engine"
+        },
+        {
+            "name" : "LENS",
+            "description" : "Lens is a multiclass object recognition software that has been trained on several common datasets to classify different items correctly. It has been built with Python, Convolutional Neural Networks, and Support-Vector Machine. ",
+            "link" : "https://github.com/nazimshoikot"
+        },
+        {
+            "name" : "MCQUEUE",
+            "description" : "MCQueue is a quizzing platform for students pursuing IGCSE so that they could practice MCQ questions. The mobile application helps the student practice, and tracks user progress to give them personalized feedback about the topics they need to improve on. It has been created with ReactNative, Go, and SQLite3.",
+            "link" : "https://github.com/nazimshoikot/quiz"
+        },
+        {
+            "name" : "TWISTTIER",
+            "description" : "Twisttier is a Twitter-like social networking site where users can create, edit and delete posts and interact with other uses through their posts and comments. ",
+            "link" : "https://github.com/nazimshoikot/twisttier"
+        },
+        {
+            "name" : "BIGTWO",
+            "description" : "BigTwo is a multiplayer networked cross-platform card game built using the rules of the popular card game Big Two. Users can connect, play according to the rules, and chat with each other. It has been implemented purely with Java. ",
+            "link" : "https://github.com/nazimshoikot/BigTwo"
+        },
+        {
+            "name" : "XINU",
+            "description" : "Xinu is a light-weight operating systems that can be configured quite easily according to specific needs. This project experimented with different algorithms for managing memory and processes to get a deeper understanding of Xinu using C and C++. ",
+            "link" : "https://github.com/nazimshoikot"
+        }
+    ]
+}
+

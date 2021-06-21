@@ -1,0 +1,87 @@
+/* .education-root-container {
+    background-image: url(./../Data/HKU.jpeg);
+    height: 720px;
+    width: auto;
+    background-size: cover;
+} */
+
+.education-root-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-color: #212a49;
+    padding: 15px;
+    min-height: 100vh;
+}
+
+
+
+.education-component-container {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.edu-header-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.edu-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 5px rgba(117, 117, 117, 0.397) solid;
+}
+
+
+.edu-qual-component-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.qualification-container {
+    display: grid;
+    justify-items: center;
+    margin: 2vw;
+    margin-bottom: 30px;
+}
+
+.qualification-items-container {
+    height: 300px;
+}
+
+
+
+.q-item {
+    text-align: center;
+    color: white;
+}
+.q-item-year {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.q-item-name {
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.white-header {
+    font-size: 10vh;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.edu-filler {
+}
+
+
