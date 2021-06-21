@@ -75,7 +75,7 @@
         {
             "name" : "LENS",
             "description" : "Lens is a multiclass object recognition software that has been trained on several common datasets to classify different items correctly. It has been built with Python, Convolutional Neural Networks, and Support-Vector Machine. ",
-            "link" : "https://github.com/nazimshoikot"
+            "link" : "https://github.com/nazimshoikot/LENS"
         },
         {
             "name" : "MCQUEUE",
@@ -95,7 +95,7 @@
         {
             "name" : "XINU",
             "description" : "Xinu is a light-weight operating systems that can be configured quite easily according to specific needs. This project experimented with different algorithms for managing memory and processes to get a deeper understanding of Xinu using C and C++. ",
-            "link" : "https://github.com/nazimshoikot"
+            "link" : "https://github.com/nazimshoikot/Xinu"
         }
     ]
 }
