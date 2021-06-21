@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/about/static/css/main.a0f62925.chunk.css",
+    "main.js": "/about/static/js/main.587564aa.chunk.js",
+    "main.js.map": "/about/static/js/main.587564aa.chunk.js.map",
+    "runtime-main.js": "/about/static/js/runtime-main.fa35e2cf.js",
+    "runtime-main.js.map": "/about/static/js/runtime-main.fa35e2cf.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/about/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.34545801.chunk.js": "/about/static/js/2.34545801.chunk.js",
+    "static/js/2.34545801.chunk.js.map": "/about/static/js/2.34545801.chunk.js.map",
+    "static/js/3.e031b8d7.chunk.js": "/about/static/js/3.e031b8d7.chunk.js",
+    "static/js/3.e031b8d7.chunk.js.map": "/about/static/js/3.e031b8d7.chunk.js.map",
+    "index.html": "/about/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/about/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.a0f62925.chunk.css.map": "/about/static/css/main.a0f62925.chunk.css.map",
+    "static/js/2.34545801.chunk.js.LICENSE.txt": "/about/static/js/2.34545801.chunk.js.LICENSE.txt",
+    "static/media/HKU_logo.a9b42f07.jpg": "/about/static/media/HKU_logo.a9b42f07.jpg",
+    "static/media/Self.03812077.png": "/about/static/media/Self.03812077.png",
+    "static/media/azeus_logo.ba5996ac.jfif": "/about/static/media/azeus_logo.ba5996ac.jfif",
+    "static/media/eWalker_logo.e4452b0c.png": "/about/static/media/eWalker_logo.e4452b0c.png",
+    "static/media/intro.css": "/about/static/media/hk_skyline.82247e66.jpg",
+    "static/media/lens_logo.f7377373.jpg": "/about/static/media/lens_logo.f7377373.jpg",
+    "static/media/mastermind_logo.3051bb57.jpg": "/about/static/media/mastermind_logo.3051bb57.jpg",
+    "static/media/mcq_logo.481162b0.png": "/about/static/media/mcq_logo.481162b0.png",
+    "static/media/purdue.437f66fc.jpg": "/about/static/media/purdue.437f66fc.jpg",
+    "static/media/scoolsmart_logo.5b94955b.png": "/about/static/media/scoolsmart_logo.5b94955b.png",
+    "static/media/twisttier_logo.3263d24b.jpg": "/about/static/media/twisttier_logo.3263d24b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa35e2cf.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.34545801.chunk.js",
+    "static/css/main.a0f62925.chunk.css",
+    "static/js/main.587564aa.chunk.js"
+  ]
+}
