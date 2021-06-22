@@ -4,6 +4,7 @@ import {Image } from 'react-bootstrap';
 import './intro.css';
 import messages from "./../Data/Messages.json";
 import {BsFillPersonLinesFill} from "react-icons/bs";
+import bg_image from "./../Data/hk_skyline.jpg";
 
 
 
@@ -15,12 +16,17 @@ function Intro(props) {
         window.open(baseURL + "/resume.pdf", "_blank")
     }
 
+
+
     return(
+
+        
         
         <div 
             className ="root-container" 
         >
-            <div className  ="greetings-container">
+            
+            <div style={{ backgroundImage: `url(${bg_image})` }} className="greetings-container">
             
                 <div>
                     
@@ -85,5 +91,7 @@ function Intro(props) {
         
     )
 }
+
+
 
 export default Intro;

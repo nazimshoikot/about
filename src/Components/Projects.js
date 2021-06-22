@@ -4,7 +4,7 @@ import { GrGithub } from "react-icons/gr";
 import './education.css';
 import './projects.css';
 import messages from "../Data/Messages.json";
-import azeus_logo from "./../Data/azeus_logo.jfif";
+import search_logo from "./../Data/search_icon.png";
 import lens_logo from "./../Data/lens_logo.jpg";
 import mcq_logo from "./../Data/mcq_logo.png";
 import twisttier_logo from "./../Data/twisttier_logo.jpg";
@@ -19,7 +19,7 @@ function Project(props) {
     // decide which logo to give
     switch(p.name) {
         case "SEMANTIC SEARCH ENGINE":
-            logo = azeus_logo;
+            logo = search_logo;
             break;
         case "LENS":
             logo = lens_logo;

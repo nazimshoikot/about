@@ -12,13 +12,13 @@
     display: grid;
     align-items: center;
     min-height: 100vh;
-    animation: fadein 3s;
-
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 
-.greetings-container::after {
+/* .greetings-container::after {
     content: "";
     background: url("./../Data/hk_skyline.jpg");
     background-size: cover;
@@ -32,7 +32,7 @@
     z-index: -1;   
     min-height: 100vh;
 
-}
+} */
 
 
 
@@ -43,12 +43,13 @@
     align-items: center;
     color: white;
     -webkit-text-stroke: 3px #212a49;
-    
+    animation: fadein 2s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    0% { opacity: 0; }
+    30% {opacity: 0;}
+    100%   { opacity: 1; }
 }
 
 .rounded-buttons {
@@ -85,7 +86,7 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-
+    animation: fadein 3s;
 }
 
 
@@ -139,6 +140,7 @@
     bottom: 0%;
     left: 50%;
     transform: translate(-50%,-50%);
+    animation: fadein 5s;
 }
 
 .arrow:hover {
