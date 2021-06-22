@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import self from "./../Data/Self.png"
 import {Image } from 'react-bootstrap';
 import './intro.css';
@@ -10,7 +10,8 @@ import {BsFillPersonLinesFill} from "react-icons/bs";
 function Intro(props) {
 
     function open_resume(){
-        let baseURL = window.location.origin;
+        console.log(window.location.href)
+        let baseURL = window.location.href;
         window.open(baseURL + "/resume.pdf", "_blank")
     }
 
@@ -20,9 +21,10 @@ function Intro(props) {
             className ="root-container" 
         >
             <div className  ="greetings-container">
+            
                 <div>
                     
-                    <div className = "greetings-message">
+                    <div className = "greetings-message" >
                         {messages.Greetings}
                     </div>
 

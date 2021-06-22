@@ -28,9 +28,9 @@ function App() {
     <Navbar sticky="top" bg="dark" variant="dark">
     <Nav className="mr-auto">
         
-      <Nav.Link onClick={() => scrollTo(intro_ref)}>About me</Nav.Link>
+      <Nav.Link onClick={() => scrollTo(intro_ref)}>About</Nav.Link>
       <Nav.Link onClick={() => scrollTo(education_ref)}>Education</Nav.Link>
-      <Nav.Link onClick={() => scrollTo(experience_ref)}>Experiences</Nav.Link>
+      <Nav.Link onClick={() => scrollTo(experience_ref)}>Experience</Nav.Link>
       <Nav.Link onClick={() => scrollTo(project_ref)}>Projects</Nav.Link>
       <Nav.Link onClick={() => scrollTo(contact_ref)}>Contact</Nav.Link>
     </Nav>

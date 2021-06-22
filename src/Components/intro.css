@@ -12,6 +12,8 @@
     display: grid;
     align-items: center;
     min-height: 100vh;
+    animation: fadein 3s;
+
 }
 
 
@@ -41,6 +43,12 @@
     align-items: center;
     color: white;
     -webkit-text-stroke: 3px #212a49;
+    
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .rounded-buttons {
