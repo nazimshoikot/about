@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import self from "./../Data/Self.png"
 import {Image } from 'react-bootstrap';
 import './intro.css';
@@ -73,7 +73,7 @@ function Intro(props) {
                             {messages.Introduction2}
                         </div>
                         <div className="intro-messages-container">
-                            {messages.Introduction2}
+                            {messages.Introduction3}
                         </div>
                     </div>
                 </div>
