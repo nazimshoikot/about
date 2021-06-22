@@ -44,3 +44,9 @@
     font-size: 30px;
     color: #212a49;
 }
+
+@media only screen and (max-width: 800px) {
+    #inner-border-container {
+        width: 75%;
+    }
+}

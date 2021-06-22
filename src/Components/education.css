@@ -12,7 +12,6 @@
     background-color: #212a49;
     padding: 15px;
     min-height: 100vh;
-    border: 2px red solid;
 }
 
 
@@ -90,6 +89,5 @@
 
     .edu-qual-component-container {
         grid-template-columns: 100%;
-        border: 2px red solid;        
     }
 }
