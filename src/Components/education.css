@@ -12,6 +12,7 @@
     background-color: #212a49;
     padding: 15px;
     min-height: 100vh;
+    border: 2px red solid;
 }
 
 
@@ -75,13 +76,20 @@
 }
 
 .white-header {
-    font-size: 10vh;
+    font-size: 100px;
     color: white;
     padding: 20px;
-    margin: 20px;
 }
 
-.edu-filler {
+@media only screen and (max-width: 800px) {
+    .white-header {
+        font-size: 15vw;
+        color: white;
+        padding: 20px;
+    }
+
+    .edu-qual-component-container {
+        grid-template-columns: 100%;
+        border: 2px red solid;        
+    }
 }
-
-

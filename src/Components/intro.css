@@ -14,6 +14,8 @@
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    border: 2px red solid;
+
 }
 
 
@@ -37,7 +39,7 @@
 
 
 .greetings-message {
-    font-size: 18vh;
+    font-size: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +100,7 @@
     align-items: center;
     justify-items: center;
     padding: 50px;
+    border: 2px red solid;
 }
 
 .inner-intro-container {
@@ -107,7 +110,7 @@
 }
 .inner-introduction-message-container {
     width: 70%;
-    font-size: 2vh;
+    font-size: 18px;
     background-color: #212a49;
     margin: 10px;
     color: rgb(255, 255, 255);
@@ -188,3 +191,41 @@
     margin-bottom: 15px;
 }
 
+
+/* FOR SMALLER SCREENS */
+@media only screen and (max-width: 800px) {
+    .intro-container {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 1vw;
+    }
+    .inner-intro-container {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 100%;
+    }
+    .inner-introduction-message-container {
+        width: 95%;
+        font-size: 18px;
+        background-color: #212a49;
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border: 2px rgba(48, 48, 48, 0.281) solid;
+        border-top-left-radius: 25px;
+        display: grid;
+        box-shadow: 5px 7px #212a49a2;
+    }
+    .intro-image-container {
+        display: none;
+    }
+    .greetings-message {
+        font-size: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        -webkit-text-stroke: 3px #212a49;
+        animation: fadein 2s;
+    }
+}

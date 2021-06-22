@@ -3,6 +3,7 @@
     grid-template-columns: auto;
     justify-items: center;
     min-height: 100vh;
+    border: 2px red solid;
 }
 
 .experience-components-container {
@@ -12,6 +13,7 @@
     align-items: center;
     width: 100%;
     background-color: white;
+    border: 2px blue solid;
 }
 
 .e-item {
@@ -44,8 +46,18 @@
 }
 
 .blue-header {
-    font-size: 10vh;
+    font-size: 100px;
     color: #212a49;
     padding: 20px;
-    margin: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .blue-header {
+        font-size: 15vw;
+        color: #212a49;
+    }
+
+    .experience-components-container {
+        grid-template-columns: 100%;        
+    }
 }

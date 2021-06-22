@@ -59,9 +59,7 @@ function Intro(props) {
                 ref={props.ref_to_use} 
             >
                 <div className = "inner-intro-container">
-                    <div>
-                        
-                    </div>
+        
                     <div className = "inner-introduction-message-container">
                         <div id="profile-logo-container">
                             <BsFillPersonLinesFill 

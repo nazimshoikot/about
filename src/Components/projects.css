@@ -4,6 +4,7 @@
     grid-template-columns: auto;
     justify-items: center;
     min-height: 100vh;
+    border: 2px red solid;
 }
 
 .project-logo {
@@ -87,3 +88,10 @@
 }
 
 
+
+@media only screen and (max-width: 800px) {
+
+    .projects-container {
+        grid-template-columns: 100%;        
+    }
+}
