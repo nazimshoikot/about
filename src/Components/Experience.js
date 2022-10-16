@@ -36,8 +36,8 @@ function Experience(props) {
             break;
         case "KODIFLY LIMITED": 
             logo = kodifly_logo
+            break;
         default:
-            
     }
     return (
         <div className = "qualification-container">

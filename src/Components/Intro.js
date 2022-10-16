@@ -5,9 +5,6 @@ import './intro.css';
 import messages from "./../Data/Messages.json";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import bg_image from "./../Data/hk_skyline.jpg";
-import coverPic from '../Data/cover.jpg'
-
-
 
 function Intro(props) {
 
