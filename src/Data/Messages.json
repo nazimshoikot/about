@@ -1,7 +1,8 @@
+
 {
     "Greetings" : "Hi, I'm Nazim",
-    "Introduction1" : "Originally from Bangladesh, I am an aspiring Software Developer currently based in Hong Kong. My interests are Machine Learning and Software development and I like working on personal and professional projects that integrate the use of these two fields. ",
-    "Introduction2" : "I completed my high school in Bangladesh at Mastermind school, completing my International IGCSEs and International Advanced Levels. I came to Hong Kong to pursue a Computer Science Degree at the University of Hong Kong and have recently graduated in June 2021. I have had a rich university experience, including studying an exchange semester at Purdue University and working for multiple promising start-ups. Currently, I am excited about starting my career at D-Engraver Limited as a Software Engineer. ",
+    "Introduction1" : "Originally from Bangladesh, I am a Software Developer currently based in Hong Kong. My interests are Machine Learning and Software development and I like working on personal and professional projects that integrate the use of these two fields. ",
+    "Introduction2" : "I completed my high school in Bangladesh at Mastermind school, completing my International IGCSEs and International Advanced Levels. I came to Hong Kong to pursue a Computer Science Degree at the University of Hong Kong and have recently graduated in June 2021. I have had a rich university experience, including studying an exchange semester at Purdue University and working for multiple promising start-ups. Currently, I am working as an Artificial Intelligence Engineer at Kodifly Limited.",
     "Introduction3" : "When I am not working, I keep myself entertained with light-hearted TV shows and Football. I love travelling and constantly seek out opportunities that let me travel across the globe to develop my perspective. If there is anything you would like to talk about, feel free to shoot me an email!",
     "Education": [{
             "degree" : "BACHELOR OF ENGINEERING",
@@ -30,10 +31,16 @@
     ],
     "Experiences": [
         {
+            "name" : "KODIFLY LIMITED",
+            "year" : "OCTOBER 2022 – PRESENT",
+            "position" : "ARTIFICIAL INTELLIGENCE ENGINEER",
+            "description": "I recently joined Kodifly where I have had the opportunity to work on numerous exciting projects such as real-time pedestrian and vehicle tracking and analysis. In addition to that, we are continuously researching and implementing LiDAR technology applications in the railway industry."
+        },
+        {
             "name" : "D-ENGRAVER LIMITED",
-            "year" : "AUGUST 2021 – PRESENT",
+            "year" : "AUGUST 2021 – SEPTEMBER 2022",
             "position" : "SOFTWARE DEVELOPMENT ENGINEER",
-            "description": "Following my graduation, I will be joining D-Engraver as a full-time Software Development Engineer. My work will focus around software development of blockchain related applications."
+            "description": "Following my graduation, I joined D-Engraver as a Software Development Engineer where my work focused on creating new products on top of the company's patented blockchain to faciliate digital contract creation and signing."
         },
         {
             "name" : "EWALKER MANAGEMENT LTD",

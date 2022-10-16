@@ -94,20 +94,42 @@
 .intro-container {
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-items: center;
-    padding: 50px;
+    justify-content: center;
 }
 
-.inner-intro-container {
-    display: grid;
-    justify-items:right;
-
+.intro-container > .intro-inner-ctn {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
 }
+
+.intro-container > .intro-inner-ctn > .bg-img {
+    display: flex;
+    width: 50%;
+    max-height: 700px;
+    height: 100%;
+    border-top-right-radius: 25px;
+    box-shadow: 5px -5px #212a49a2;
+    overflow: hidden;
+}
+
+.intro-container > .intro-inner-ctn > .bg-img > .cover-pic {
+    height: 680px;
+}
+
+.intro-container > .intro-inner-ctn > .intro-text-ctn {
+    width: 50%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
 .inner-introduction-message-container {
-    width: 70%;
     font-size: 18px;
     background-color: #212a49;
     margin: 10px;
@@ -115,8 +137,7 @@
     padding: 20px;
     border: 2px rgba(48, 48, 48, 0.281) solid;
     border-top-left-radius: 25px;
-    display: grid;
-    box-shadow: 5px 7px #212a49a2;
+    box-shadow: -5px -5px #212a49a2;
 }
 
 .intro-messages-container {
@@ -197,10 +218,12 @@
         grid-template-columns: 100%;
         padding: 1vw;
     }
-    .inner-intro-container {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 100%;
+    .intro-container > .intro-inner-ctn {
+        width: 100%;
+    }
+    
+    .intro-container > .intro-inner-ctn > .intro-text-ctn {
+        width: 100%;
     }
     .inner-introduction-message-container {
         width: 95%;
@@ -214,7 +237,11 @@
         display: grid;
         box-shadow: 5px 7px #212a49a2;
     }
-    .intro-image-container {
+    .bg-img {
+        display: none;
+        width: 0%;
+    }
+    .cover-pic {
         display: none;
     }
     .greetings-message {

@@ -47,7 +47,8 @@ function App() {
       <Intro 
         ref_to_use={intro_ref} 
         contact_ref={contact_ref} 
-        scroll_to={scrollTo} />
+        scroll_to={scrollTo}
+      />
       <Education ref_to_use={education_ref} />
       <Experience ref_to_use={experience_ref} />
       <Projects ref_to_use={project_ref} />
