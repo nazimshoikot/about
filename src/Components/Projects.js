@@ -10,6 +10,8 @@ import mcq_logo from "./../Data/mcq_logo.png";
 import twisttier_logo from "./../Data/twisttier_logo.jpg";
 import bigtwo_logo from "./../Data/bigtwo_logo.png";
 import xinu_logo from "./../Data/xinu_logo.png";
+import artisynth_logo from "./../Data/artisynth.jpg";
+import movie_mingle_logo from "./../Data/moviemingle.png";
 
 function Project(props) {
     // get the qualification object
@@ -18,13 +20,13 @@ function Project(props) {
 
     // decide which logo to give
     switch(p.name) {
-        case "SEMANTIC SEARCH ENGINE":
+        case "DOCUMIND":
             logo = search_logo;
             break;
-        case "LENS":
+        case "EYE SPY":
             logo = lens_logo;
             break;
-        case "MCQUEUE":
+        case "QUIZ QUEST":
             logo = mcq_logo;
             break;
         case "TWISTTIER":
@@ -33,40 +35,54 @@ function Project(props) {
         case "BIGTWO":
             logo = bigtwo_logo;
             break;
-        case "XINU":
+        case "XINU FLEX":
             logo = xinu_logo;
             break;
-
+        case "MOVIE MINGLE":
+            logo = movie_mingle_logo;
+            break;
+        case "ARTISYNTH":
+            logo = artisynth_logo;
+            break;
         default:
             
     }
 
+    let code_button = <div 
+        className="link-button"
+        onClick={()=> window.open(p.link, "_blank")}
+    >
+        <div>
+            <GrGithub className="github-icon" />
+        </div>
+        <div className="button-code-message">
+            Source Code
+        </div>        
+    </div>
+    if (p.link == "") {
+        code_button = <div 
+            className="link-button link-button-disable"
+        >
+            <div>
+                <GrGithub className="github-icon" />
+            </div>
+            <div className="button-code-message msg-justify-left">
+                Private
+            </div>        
+        </div>
+    }
 
     return (
         <div className = "project-component-container">
             <Image className = "project-logo" src = {logo} roundedCircle/>
-            
             <div className="project-items-container">
                 <div className="p-item-name">{p.name}</div>
                 <div className="p-item">{p.description}</div>
                 <div className = "link-button-container">
-                    <div 
-                        className="link-button"
-                        onClick={()=> window.open(p.link, "_blank")}
-                    >
-                        <div>
-                            <GrGithub className="github-icon" />
-                        </div>
-                        <div className="button-code-message">
-                            Source Code
-                        </div>        
-                    </div>
+                    {code_button}   
                 </div>
-                
             </div>
-
         </div>
-            
     )
 }
 

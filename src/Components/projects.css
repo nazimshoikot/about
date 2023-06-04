@@ -27,7 +27,7 @@
 
 .project-items-container {
     padding: 20px;
-    height: 350px;
+    height: 380px;
     width: 100%;
     position: relative;
 }
@@ -60,6 +60,11 @@
     padding: 5px;
 }
 
+.link-button-disable {
+    pointer-events: none;
+    color: coral;
+}
+
 .link-button:hover {
     cursor: pointer;
     background-color: #8494cf;
@@ -79,6 +84,10 @@
     font-size: 20px;
     display: grid;
     justify-items: right;
+}
+
+.msg-justify-left {
+    justify-items: center;
 }
 
 

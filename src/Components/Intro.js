@@ -54,6 +54,9 @@ function Intro(props) {
                             <div className="intro-messages-container">
                                 {messages.Introduction3}
                             </div>
+                            <div className="intro-messages-container">
+                                {messages.Introduction4}
+                            </div>
                         </div>
                     </div>
                     <div hidden={clientWidth < 800} className="bg-img">

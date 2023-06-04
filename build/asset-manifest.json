@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/about/static/css/main.73d02e7a.chunk.css",
-    "main.js": "/about/static/js/main.58809c4a.chunk.js",
-    "main.js.map": "/about/static/js/main.58809c4a.chunk.js.map",
+    "main.js": "/about/static/js/main.0e18d557.chunk.js",
+    "main.js.map": "/about/static/js/main.0e18d557.chunk.js.map",
     "runtime-main.js": "/about/static/js/runtime-main.ac4bf9fc.js",
     "runtime-main.js.map": "/about/static/js/runtime-main.ac4bf9fc.js.map",
     "static/css/2.4c34b247.chunk.css": "/about/static/css/2.4c34b247.chunk.css",
@@ -17,7 +17,6 @@
     "static/media/HKU_logo.a9b42f07.jpg": "/about/static/media/HKU_logo.a9b42f07.jpg",
     "static/media/Self.735a10dc.jpg": "/about/static/media/Self.735a10dc.jpg",
     "static/media/azeus_logo.ba5996ac.jfif": "/about/static/media/azeus_logo.ba5996ac.jfif",
-    "static/media/cover.26c9f334.jpg": "/about/static/media/cover.26c9f334.jpg",
     "static/media/eWalker_logo.e4452b0c.png": "/about/static/media/eWalker_logo.e4452b0c.png",
     "static/media/hk_skyline.82247e66.jpg": "/about/static/media/hk_skyline.82247e66.jpg",
     "static/media/kodifly_logo.cb8bcf5d.png": "/about/static/media/kodifly_logo.cb8bcf5d.png",
@@ -33,6 +32,6 @@
     "static/css/2.4c34b247.chunk.css",
     "static/js/2.38ddb6c7.chunk.js",
     "static/css/main.73d02e7a.chunk.css",
-    "static/js/main.58809c4a.chunk.js"
+    "static/js/main.0e18d557.chunk.js"
   ]
 }

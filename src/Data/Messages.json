@@ -1,9 +1,12 @@
 
 {
     "Greetings" : "Hi, I'm Nazim",
-    "Introduction1" : "Originally from Bangladesh, I am a Software Developer currently based in Hong Kong. My interests are Machine Learning and Software development and I like working on personal and professional projects that integrate the use of these two fields. ",
-    "Introduction2" : "I completed my high school in Bangladesh at Mastermind school, completing my International IGCSEs and International Advanced Levels. I came to Hong Kong to pursue a Computer Science Degree at the University of Hong Kong and have recently graduated in June 2021. I have had a rich university experience, including studying an exchange semester at Purdue University and working for multiple promising start-ups. Currently, I am working as an Artificial Intelligence Engineer at Kodifly Limited.",
-    "Introduction3" : "When I am not working, I keep myself entertained with light-hearted TV shows and Football. I love travelling and constantly seek out opportunities that let me travel across the globe to develop my perspective. If there is anything you would like to talk about, feel free to shoot me an email!",
+    
+
+    "Introduction1" : "Originally from Bangladesh, I am an AI Engineer currently based in the dynamic city of Hong Kong. My professional passion lies at the intersection of Machine Learning and Software Development, where I continually strive to innovate and create through both personal and professional projects.",
+    "Introduction2" : "My educational journey began at Mastermind School in Bangladesh, where I completed my International IGCSEs and International Advanced Levels. Driven by an eagerness to explore the world of Computer Science, I ventured to Hong Kong to earn my degree at the renowned University of Hong Kong, graduating in June 2021.",
+    "Introduction3" : "My university experience has been both diverse and enriching. I had the privilege of studying an exchange semester at Purdue University, an experience that broadened my horizons and deepened my understanding of my chosen field. My journey continued with hands-on involvement with various burgeoning start-ups, offering practical insight into the world of tech entrepreneurship. Presently, I'm channeling my skills and knowledge into my role as an Artificial Intelligence Engineer at Kodifly Limited.",
+    "Introduction4" : "Away from the world of codes and algorithms, I'm an avid fan of light-hearted TV shows and football. I also harbor a love for travel, constantly seeking out opportunities that allow me to explore different corners of the globe and broaden my perspectives. I welcome conversations on a wide array of topics, so please don't hesitate to reach out via email!",
     "Education": [{
             "degree" : "BACHELOR OF ENGINEERING",
             "name" : "THE UNIVERSITY OF HONG KONG",
@@ -34,19 +37,19 @@
             "name" : "KODIFLY LIMITED",
             "year" : "OCTOBER 2022 – PRESENT",
             "position" : "ARTIFICIAL INTELLIGENCE ENGINEER",
-            "description": "I recently joined Kodifly where I have had the opportunity to work on numerous exciting projects such as real-time pedestrian and vehicle tracking and analysis. In addition to that, we are continuously researching and implementing LiDAR technology applications in the railway industry."
+            "description": "Currently, I'm part of adynamic team at Kodifly. Here, I have the privilege of contributing to cutting-edge projects, including real-time tracking and analysis of pedestrians and vehicles in the 3D space. We're also deeply engaged in exploring and deploying LiDAR technology applications in the railway industry, a challenging and invigorating endeavor."
         },
         {
             "name" : "D-ENGRAVER LIMITED",
             "year" : "AUGUST 2021 – SEPTEMBER 2022",
             "position" : "SOFTWARE DEVELOPMENT ENGINEER",
-            "description": "Following my graduation, I joined D-Engraver as a Software Development Engineer where my work focused on creating new products on top of the company's patented blockchain to faciliate digital contract creation and signing."
+            "description": "In my tenure at D-Engraver, I honed my skills as a Software Development Engineer, focusing on creating innovative products. Our work revolved around the company's patented blockchain, which we used to facilitate digital contract creation and signing, an area of immense potential and growing relevance."
         },
         {
             "name" : "EWALKER MANAGEMENT LTD",
             "year" : "JUN 2019 – MAY 2021",
             "position" : "ASSOCIATE CONSULTANT – SOFTWARE ENGINEER",
-            "description": "I joined EWalker after my sophomore year and have been working with them as a software developer since then until my graduation. I developed software for automation of security vulnerabilities detection and generation of reports. During the later stages, I helped with creating an internal website that integrates numerous different parsers and analyzed and visualized data using Elasticsearch and Kibana."
+            "description": "My role at EWalker began after my sophomore year and extended until graduation. My primary contributions included developing software for automation of security vulnerability detection and report generation. In the later stages, I participated in creating an internal website that integrated various parsers, analyzing and visualizing data using Elasticsearch and Kibana."
         },
         {
             "name" : "AZEUS SYSTEMS LIMITED",
@@ -64,7 +67,7 @@
             "name" : "SCOOLSMART",
             "year" : "APR 2019 – JUN 2019",
             "position" : "TECHNOLOGY INTERN ",
-            "description": "In my sophomore year, I briefly worked for an education start-up. In this position, I tested the application and reported to development team to fix errors and ensure cohesion of the user-interface."
+            "description": "In my sophomore year, I undertook a brief internship with ScoolSmart, an education start-up. My role involved testing the application, reporting errors, and ensuring the cohesion of the user-interface, allowing me to contribute to the development of a user-friendly product."
         },
         {
             "name" : "THE COACH",
@@ -75,17 +78,27 @@
     ],
     "Projects" : [
         {
-            "name" : "SEMANTIC SEARCH ENGINE",
+            "name" : "ARTISYNTH",
+            "description" : "Artisynth is an ongoing project focused on AI-driven content creation. It's designed to convert prompts into engaging artwork and dynamic video narratives. This project utilizes an assortment of AI technologies including ChatGPT for conversation simulation, speech recognition for voice inputs, text summarization and keyword extraction for understanding prompts, and VQGAN and StyleGAN for content creation. The aim of Artisynth is to continually evolve and improve, thereby making content creation more accessible and innovative.",
+            "link" : ""
+        },
+        {
+            "name" : "DOCUMIND",
             "description" : "My final year project involved creating a Semantic Search Engine. A Natural Language Processing model was made with a RoBERTa (Robustly Optimized Bidirectional Encoder Represenation Transformer approach) model integrated with Sentence-BERT. The model was then combined with a Web application created with ReactJS and Django such that user intent could be understood in real-time to retrieve relevant documents to the user. ",
             "link" : "https://github.com/nazimshoikot/Semantic_Search_Engine"
         },
         {
-            "name" : "LENS",
+            "name" : "EYE SPY",
             "description" : "Lens is a multiclass object recognition software that has been trained on several common datasets to classify different items correctly. It has been built with Python, Convolutional Neural Networks, and Support-Vector Machine. ",
             "link" : "https://github.com/nazimshoikot/LENS"
         },
         {
-            "name" : "MCQUEUE",
+            "name" : "MOVIE MINGLE",
+            "description" : "MovieMingle is a movie recommendation system designed using memory-based collaborative filtering. This project makes use of R programming to provide users with personalized movie suggestions. The system operates by analyzing the viewing patterns and preferences of multiple users to predict and recommend movies that a particular user might enjoy. The goal of MovieMingle is to enhance the movie-watching experience by introducing users to films that align with their tastes but might have been overlooked.",
+            "link" : ""
+        },
+        {
+            "name" : "QUIZ QUEST",
             "description" : "MCQueue is a quizzing platform for students pursuing IGCSE so that they could practice MCQ questions. The mobile application helps the student practice, and tracks user progress to give them personalized feedback about the topics they need to improve on. It has been created with ReactNative, Go, and SQLite3.",
             "link" : "https://github.com/nazimshoikot/quiz"
         },
@@ -100,7 +113,7 @@
             "link" : "https://github.com/nazimshoikot/BigTwo"
         },
         {
-            "name" : "XINU",
+            "name" : "XINU FLEX",
             "description" : "Xinu is a light-weight operating systems that can be configured quite easily according to specific needs. This project experimented with different algorithms for managing memory and processes to get a deeper understanding of Xinu using C and C++. ",
             "link" : "https://github.com/nazimshoikot/Xinu"
         }
