@@ -1,1 +1,0 @@
-Introductory page displaying my experiences and interests
