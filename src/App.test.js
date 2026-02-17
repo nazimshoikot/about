@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders professional profile header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const headings = screen.getAllByText(/SM Nazim Uddin Shoikot/i);
+  expect(headings.length).toBeGreaterThan(0);
 });

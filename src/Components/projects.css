@@ -1,118 +1,88 @@
 .projects-root-container {
-    background-color: #212a49;
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
-    min-height: 100vh;
-}
-
-.project-logo {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+  background-color: #212a49;
+  display: grid;
+  justify-items: center;
+  padding: 35px 20px 50px;
 }
 
 .projects-container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-items: center;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 1150px;
+}
+
+.project-card {
+  border: 1px solid rgba(216, 226, 255, 0.25);
+  border-radius: 12px;
+  padding: 16px;
 }
 
 .project-component-container {
-    display: grid;
-    justify-items: center;
-    margin: 10px;
+  display: grid;
+  justify-items: center;
 }
 
 .project-items-container {
-    padding: 20px;
-    height: 380px;
-    width: 100%;
-    position: relative;
+  padding: 10px;
+  width: 100%;
 }
 
 .p-item-name {
-    text-align: center;
-    font-size: larger;
-    color: white;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: white;
 }
 
 .p-item {
-    color: white;
-    text-align: center;
-    margin: 10px;
+  color: white;
+  text-align: center;
+  margin: 12px 0;
 }
 
 .project-logo {
-    border: 5px rgba(117, 117, 117, 0.397) solid;
+  width: 96px;
+  height: 96px;
+  margin: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
 }
 
 .link-button {
-    color: #212a49;
-    background-color: white;
-    width: 170px;
-    border-radius: 50px;
-    display: grid;
-    grid-template-columns: 20% 75%;
-    justify-items: space-around;
-    margin: 10px 0px 10px 0px;
-    padding: 5px;
+  color: #212a49;
+  background-color: white;
+  width: 200px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px auto 0;
+  padding: 8px;
 }
 
 .link-button-disable {
-    pointer-events: none;
-    color: coral;
+  pointer-events: none;
+  color: #8a909f;
 }
 
 .link-button:hover {
-    cursor: pointer;
-    background-color: #8494cf;
-    color: white;
+  cursor: pointer;
+  background-color: #dfe7ff;
 }
 
-.link-button-container {
-    width: 100%;
-    display: grid;
-    justify-items: right;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    margin-top: 10px;
-}
 .button-code-message {
-    font-size: 20px;
-    display: grid;
-    justify-items: right;
+  font-size: 0.95rem;
 }
-
-.msg-justify-left {
-    justify-items: center;
-}
-
 
 .github-icon {
-    width: 30px;
-    height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
-
-
-@media only screen and (max-width: 800px) {
-
-    .projects-container {
-        grid-template-columns: 100%;        
-    }
-
-    .project-items-container {
-        height: 400px;
-    }
-    .link-button-container {
-        width: 100%;
-        display: grid;
-        justify-items: right;
-        margin: 10px;
-        position: static;
-    }
-
+@media only screen and (max-width: 1000px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
 }

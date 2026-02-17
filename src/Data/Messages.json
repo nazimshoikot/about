@@ -1,122 +1,101 @@
-
 {
-    "Greetings" : "Hi, I'm Nazim",
-    
-
-    "Introduction1" : "Originally from Bangladesh, I am an AI Engineer currently based in the dynamic city of Hong Kong. My professional passion lies at the intersection of Machine Learning and Software Development, where I continually strive to innovate and create through both personal and professional projects.",
-    "Introduction2" : "My educational journey began at Mastermind School in Bangladesh, where I completed my International IGCSEs and International Advanced Levels. Driven by an eagerness to explore the world of Computer Science, I ventured to Hong Kong to earn my degree at the renowned University of Hong Kong, graduating in June 2021.",
-    "Introduction3" : "My university experience has been both diverse and enriching. I had the privilege of studying an exchange semester at Purdue University, an experience that broadened my horizons and deepened my understanding of my chosen field. My journey continued with hands-on involvement with various burgeoning start-ups, offering practical insight into the world of tech entrepreneurship. Presently, I'm channeling my skills and knowledge into my role as an Artificial Intelligence Engineer at Kodifly Limited.",
-    "Introduction4" : "Away from the world of codes and algorithms, I'm an avid fan of light-hearted TV shows and football. I also harbor a love for travel, constantly seeking out opportunities that allow me to explore different corners of the globe and broaden my perspectives. I welcome conversations on a wide array of topics, so please don't hesitate to reach out via email!",
-    "Education": [{
-            "degree" : "BACHELOR OF ENGINEERING",
-            "name" : "THE UNIVERSITY OF HONG KONG",
-            "year": "SEP 2017 – JUNE 2021",
-            "description": "At HKU, I finished my Bachelor of Engineering Degree, majoring in Computer Science with an additional transdisciplinary cluster in Sustaining Cities, Cultures, and the Earth. With 3 online semesters and 1 exchange semester, my university experience has been an interesting and enriching one."
-        },
-        {
-            "degree" : "BACHELOR OF SCIENCE (EXCHANGE PROGRAM)",
-            "name" : "PURDUE UNIVERSITY",
-            "year": "AUG 2019 – DEC 2019",
-            "result": "CGPA: 3.74",
-            "major": "Computer Science",
-            "description": "I was sponsored by HKU to pursue an exchange semester at Purdue. I studied under the Science Faculty with the major of Computer Science. A different environment, course structure, and community allowed me to immerse myself in a new atmosphere and develop my perspective. "
-
-        },
-        {
-            "degree" : "International Advanced Levels and IGCSE",
-            "name" : "MASTERMIND SCHOOL",
-            "year": "JUL 2013 – JUN 2016",
-            "result": "5 A* in A Levels, 6A* and 2A in O Levels",
-            "major": "Science",
-            "description": "I completed my high-school at Mastermind, taking the IGCSE and International Advanced Levels exam during that time. I received 6A* and 2A in my IGCSEs, and 5A* in my International Advanced Levels, which allowed me to pursue my further studies abroad on a full scholarship."
-        }
-        
-    ],
-    "Experiences": [
-        {
-            "name" : "KODIFLY LIMITED",
-            "year" : "OCTOBER 2022 – PRESENT",
-            "position" : "ARTIFICIAL INTELLIGENCE ENGINEER",
-            "description": "Currently, I'm part of adynamic team at Kodifly. Here, I have the privilege of contributing to cutting-edge projects, including real-time tracking and analysis of pedestrians and vehicles in the 3D space. We're also deeply engaged in exploring and deploying LiDAR technology applications in the railway industry, a challenging and invigorating endeavor."
-        },
-        {
-            "name" : "D-ENGRAVER LIMITED",
-            "year" : "AUGUST 2021 – SEPTEMBER 2022",
-            "position" : "SOFTWARE DEVELOPMENT ENGINEER",
-            "description": "In my tenure at D-Engraver, I honed my skills as a Software Development Engineer, focusing on creating innovative products. Our work revolved around the company's patented blockchain, which we used to facilitate digital contract creation and signing, an area of immense potential and growing relevance."
-        },
-        {
-            "name" : "EWALKER MANAGEMENT LTD",
-            "year" : "JUN 2019 – MAY 2021",
-            "position" : "ASSOCIATE CONSULTANT – SOFTWARE ENGINEER",
-            "description": "My role at EWalker began after my sophomore year and extended until graduation. My primary contributions included developing software for automation of security vulnerability detection and report generation. In the later stages, I participated in creating an internal website that integrated various parsers, analyzing and visualizing data using Elasticsearch and Kibana."
-        },
-        {
-            "name" : "AZEUS SYSTEMS LIMITED",
-            "year" : "AUG 2020 – MAY 2021",
-            "position" : "FINAL YEAR INDUSTRY PROJECT ",
-            "description": "For my final year project at university, I worked with Azeus to create a semantic search engine that recognized intent in real time and helped them retrieve relevant documents from their database. "
-        },
-        {
-            "name" : "THE UNIVERSITY OF HONG KONG",
-            "year" : "SEP 2018 – DEC 2018, JAN 2020 – JUN 2020",
-            "position" : "TEACHING ASSISTANT – COMPUTER PROGRAMMING ",
-            "description": "I have worked as a teaching assistant for multiple courses at the University of Hong Kong during the last 3 years of my university life. In these roles, my responsibilities included helping students without prior programming knowledge to understand and implement algorithms."
-        },
-        {
-            "name" : "SCOOLSMART",
-            "year" : "APR 2019 – JUN 2019",
-            "position" : "TECHNOLOGY INTERN ",
-            "description": "In my sophomore year, I undertook a brief internship with ScoolSmart, an education start-up. My role involved testing the application, reporting errors, and ensuring the cohesion of the user-interface, allowing me to contribute to the development of a user-friendly product."
-        },
-        {
-            "name" : "THE COACH",
-            "year" : "JUNE 2016 – MAY 2017",
-            "position" : "TEACHING ASSISTANT",
-            "description": "After my high school graduation, I worked at The Coach as a teaching assistant, teaching IGCSE and A Level students Accounting. I designed and taught lessons, and created appropriate assessment materials to prepare students for their upcoming exams."
-        }
-    ],
-    "Projects" : [
-        {
-            "name" : "ARTISYNTH",
-            "description" : "Artisynth is an ongoing project focused on AI-driven content creation. It's designed to convert prompts into engaging artwork and dynamic video narratives. This project utilizes an assortment of AI technologies including ChatGPT for conversation simulation, speech recognition for voice inputs, text summarization and keyword extraction for understanding prompts, and VQGAN and StyleGAN for content creation. The aim of Artisynth is to continually evolve and improve, thereby making content creation more accessible and innovative.",
-            "link" : ""
-        },
-        {
-            "name" : "DOCUMIND",
-            "description" : "My final year project involved creating a Semantic Search Engine. A Natural Language Processing model was made with a RoBERTa (Robustly Optimized Bidirectional Encoder Represenation Transformer approach) model integrated with Sentence-BERT. The model was then combined with a Web application created with ReactJS and Django such that user intent could be understood in real-time to retrieve relevant documents to the user. ",
-            "link" : "https://github.com/nazimshoikot/Semantic_Search_Engine"
-        },
-        {
-            "name" : "EYE SPY",
-            "description" : "Lens is a multiclass object recognition software that has been trained on several common datasets to classify different items correctly. It has been built with Python, Convolutional Neural Networks, and Support-Vector Machine. ",
-            "link" : "https://github.com/nazimshoikot/LENS"
-        },
-        {
-            "name" : "MOVIE MINGLE",
-            "description" : "MovieMingle is a movie recommendation system designed using memory-based collaborative filtering. This project makes use of R programming to provide users with personalized movie suggestions. The system operates by analyzing the viewing patterns and preferences of multiple users to predict and recommend movies that a particular user might enjoy. The goal of MovieMingle is to enhance the movie-watching experience by introducing users to films that align with their tastes but might have been overlooked.",
-            "link" : ""
-        },
-        {
-            "name" : "QUIZ QUEST",
-            "description" : "MCQueue is a quizzing platform for students pursuing IGCSE so that they could practice MCQ questions. The mobile application helps the student practice, and tracks user progress to give them personalized feedback about the topics they need to improve on. It has been created with ReactNative, Go, and SQLite3.",
-            "link" : "https://github.com/nazimshoikot/quiz"
-        },
-        {
-            "name" : "TWISTTIER",
-            "description" : "Twisttier is a Twitter-like social networking site where users can create, edit and delete posts and interact with other uses through their posts and comments. ",
-            "link" : "https://github.com/nazimshoikot/twisttier"
-        },
-        {
-            "name" : "BIGTWO",
-            "description" : "BigTwo is a multiplayer networked cross-platform card game built using the rules of the popular card game Big Two. Users can connect, play according to the rules, and chat with each other. It has been implemented purely with Java. ",
-            "link" : "https://github.com/nazimshoikot/BigTwo"
-        },
-        {
-            "name" : "XINU FLEX",
-            "description" : "Xinu is a light-weight operating systems that can be configured quite easily according to specific needs. This project experimented with different algorithms for managing memory and processes to get a deeper understanding of Xinu using C and C++. ",
-            "link" : "https://github.com/nazimshoikot/Xinu"
-        }
-    ]
+  "Greetings": "SM Nazim Uddin Shoikot",
+  "Tagline": "Artificial Intelligence Engineer | Computer Science Graduate (HKU First Class Honors)",
+  "Introduction1": "I am an Artificial Intelligence Engineer based in Hong Kong, focused on building production-ready machine learning systems across speech, computer vision, and LLM applications.",
+  "Introduction2": "My work spans offline multilingual transcription, 3D LiDAR perception pipelines, and secure software delivery for enterprise-grade systems.",
+  "Introduction3": "I hold a Bachelor of Engineering in Computer Science (First Class Honors) from The University of Hong Kong and also completed a Computer Science exchange semester at Purdue University.",
+  "Introduction4": "I am open to collaborations and opportunities in applied AI, ML engineering, and intelligent product development.",
+  "Education": [
+    {
+      "name": "THE UNIVERSITY OF HONG KONG",
+      "year": "SEP 2017 – JUN 2021",
+      "degree": "Bachelor of Engineering in Computer Science (First Class Honors)",
+      "description": "GPA: 3.66/4.30. Selected coursework: Data Structures and Algorithm Analysis, Applied Deep Learning, Communication and Networks."
+    },
+    {
+      "name": "PURDUE UNIVERSITY",
+      "year": "AUG 2019 – DEC 2019",
+      "degree": "Bachelor of Science in Computer Science (Exchange Program)",
+      "description": "GPA: 3.74/4.00. Selected coursework: Design and Analysis of Algorithms (Graduate level), Operating Systems, Software Engineering."
+    }
+  ],
+  "Experiences": [
+    {
+      "name": "PANTHEON LAB LIMITED",
+      "year": "JUN 2024 – PRESENT",
+      "position": "ARTIFICIAL INTELLIGENCE ENGINEER",
+      "highlights": [
+        "Developed a multilingual offline transcription app for Mac with real-time transcription and summarization (STT, LLM, MLX).",
+        "Enhanced lip-sync technology for digital human interfaces to improve interaction smoothness and lower latency (GAN, PyTorch Lightning, Wav2Lip).",
+        "Optimized LLMs for Nvidia and Mac architectures and performed comparative model analysis by use case (CUDA, MLX).",
+        "Established vulnerability management workflows for ISO27001 compliance (Wazuh, SonarQube)."
+      ]
+    },
+    {
+      "name": "KODIFLY LIMITED",
+      "year": "OCT 2022 – MAY 2024",
+      "position": "ARTIFICIAL INTELLIGENCE ENGINEER",
+      "highlights": [
+        "Led a cross-national team of 6 engineers to deploy a 3D tree monitoring and alert system with 95% real-time risk detection accuracy.",
+        "Built SLAM-based 3D mapping and synchronized camera, LiDAR, GPS, and ISPS streams for alerting and predictive risk analysis (FAST-LIO, ROS).",
+        "Developed a real-time pedestrian and vehicle tracking system with height and speed estimation (PaddlePaddle, Ouster-SDK, Python).",
+        "Evaluated 3D detection models for railway train detection and tree intrusion scenarios (PPYOLOe, CNN, RCNN, SFA3D, OpenPCDet, SFD)."
+      ]
+    },
+    {
+      "name": "D-ENGRAVER LIMITED",
+      "year": "AUG 2021 – SEP 2022",
+      "position": "SOFTWARE DEVELOPMENT ENGINEER",
+      "highlights": [
+        "Engineered a secure payment system with subscriptions, invoices, and 3D Authentication using Stripe.",
+        "Developed object matting algorithms with pixel-level manipulation for image extraction (TypeScript).",
+        "Created an automated framework for unit and visual regression testing (Node.js, React.js)."
+      ]
+    },
+    {
+      "name": "EWALKER MANAGEMENT LTD",
+      "year": "JUN 2019 – MAY 2021",
+      "position": "ASSOCIATE CONSULTANT – SOFTWARE ENGINEER",
+      "highlights": [
+        "Developed and integrated security and digital forensics tools (Go, React.js).",
+        "Automated vulnerability detection testing and report generation, reducing manual effort by up to 12 hours/day.",
+        "Led log data analysis, visualization, and parameter optimization workflows (Elasticsearch, Kibana)."
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "name": "ARTISYNTH",
+      "description": "AI-driven content creation engine that transforms prompts into art and dynamic video narratives (ChatGPT, Speech Recognition, Text Summarization, Keyword Extraction, VQGAN, StyleGAN).",
+      "link": ""
+    },
+    {
+      "name": "DOCUMIND",
+      "description": "Final-year project semantic search engine using vector embeddings and NLP to infer user intent and retrieve internal documents (BERT, RoBERTa, SBERT, Python, React.js, Django).",
+      "link": "https://github.com/nazimshoikot/Semantic_Search_Engine"
+    },
+    {
+      "name": "XINU FLEX",
+      "description": "Operating systems experimentation project on memory/process management algorithms in Xinu (C, C++).",
+      "link": "https://github.com/nazimshoikot/Xinu"
+    }
+  ],
+  "Skills": [
+    {
+      "category": "Core",
+      "items": "C, C++, Go, Java, JavaScript, TypeScript, Python, ROS"
+    },
+    {
+      "category": "Web Development",
+      "items": "AngularJS, Bootstrap, CSS, Django, HTML, MongoDB, MySQL, Node.js, PostgreSQL, React.js"
+    },
+    {
+      "category": "Machine Learning",
+      "items": "BERT, CNN, GAN, LLM, NLP, PyTorch, SBERT, TensorFlow, PaddlePaddle, Whisper"
+    }
+  ],
+  "Awards": [
+    "HKSAR Government Scholarship covering 100% tuition and living expenses (2017–2021)",
+    "Dean's Honors List, Faculty of Engineering, HKU (2018, 2021)"
+  ]
 }
-

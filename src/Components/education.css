@@ -1,93 +1,72 @@
-/* .education-root-container {
-    background-image: url(./../Data/HKU.jpeg);
-    height: 720px;
-    width: auto;
-    background-size: cover;
-} */
-
 .education-root-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
-    background-color: #212a49;
-    padding: 15px;
-    min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  background-color: #212a49;
+  padding: 35px 20px 50px;
 }
 
-
-
-.education-component-container {
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0px;
+.edu-qual-component-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
+  max-width: 1150px;
 }
 
-.edu-header-container {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+.education-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(216, 226, 255, 0.25);
+  border-radius: 12px;
+  padding: 16px;
 }
 
 .edu-logo {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    border: 5px rgba(117, 117, 117, 0.397) solid;
-}
-
-
-.edu-qual-component-container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-items: center;
-    align-items: center;
-    width: 100%;
+  width: 120px;
+  height: 120px;
+  margin: 16px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
 }
 
 .qualification-container {
-    display: grid;
-    justify-items: center;
-    margin: 2vw;
-    margin-bottom: 30px;
+  display: grid;
+  justify-items: center;
 }
 
 .qualification-items-container {
-    height: 300px;
+  width: 100%;
 }
 
-
-
-.q-item {
-    text-align: center;
-    color: white;
+.q-item,
+.q-item-year,
+.q-item-degree,
+.q-item-name {
+  text-align: center;
+  color: white;
 }
+
+.q-item-degree {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
 .q-item-year {
-    text-align: center;
-    font-style: italic;
-    color: white;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .q-item-name {
-    text-align: center;
-    font-size: larger;
-    color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .white-header {
-    font-size: 100px;
-    color: white;
-    padding: 20px;
+  font-size: clamp(2rem, 7vw, 4.4rem);
+  color: white;
+  padding: 10px 20px 24px;
 }
 
 @media only screen and (max-width: 800px) {
-    .white-header {
-        font-size: 15vw;
-        color: white;
-        padding: 20px;
-    }
-
-    .edu-qual-component-container {
-        grid-template-columns: 100%;
-    }
+  .edu-qual-component-container {
+    grid-template-columns: 1fr;
+  }
 }

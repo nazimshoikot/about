@@ -1,3 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1b2442;
+}
+
+.app-navbar {
+  padding: 0.6rem 1rem;
+}
+
+.nav-brand {
+  font-weight: 600;
+  margin-right: 1.5rem;
+}
