@@ -1,61 +1,82 @@
 .experience-root-container {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
-    min-height: 100vh;
+  display: grid;
+  justify-items: center;
+  padding: 35px 20px 50px;
 }
 
 .experience-components-container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-items: center;
-    align-items: center;
-    width: 100%;
-    background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
+  max-width: 1150px;
 }
 
-.e-item {
-    text-align: center;
-    color: #212a49;
+.experience-card {
+  border: 1px solid #d7deee;
+  border-radius: 12px;
+  padding: 18px;
+  background: #ffffff;
 }
-.e-item-year {
-    text-align: center;
-    font-style: italic;
-    color: #212a49;
+
+.e-item,
+.e-item-year,
+.e-item-name,
+.e-item-description {
+  color: #212a49;
 }
 
 .e-item-name {
-    text-align: center;
-    font-size: larger;
-    color: #212a49;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 700;
 }
 
-.e-item-description {
-    margin-top: 1vh;
-    text-align: center;
-    color: #212a49;
+.e-item {
+  text-align: center;
+  font-weight: 600;
+}
+
+.e-item-year {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.experience-highlights {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.experience-highlights li {
+  margin-bottom: 8px;
 }
 
 .experience-logo {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    border: 5px #212a49 solid;
+  width: 88px;
+  height: 88px;
+  margin: 8px auto 16px;
+  border: 2px solid #d7deee;
+  object-fit: cover;
+}
+
+.experience-logo-fallback {
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: #eef2ff;
 }
 
 .blue-header {
-    font-size: 100px;
-    color: #212a49;
-    padding: 20px;
+  font-size: clamp(2rem, 7vw, 4.4rem);
+  color: #212a49;
+  padding: 10px 20px 24px;
 }
 
-@media only screen and (max-width: 800px) {
-    .blue-header {
-        font-size: 15vw;
-        color: #212a49;
-    }
-
-    .experience-components-container {
-        grid-template-columns: 100%;        
-    }
+@media only screen and (max-width: 900px) {
+  .experience-components-container {
+    grid-template-columns: 1fr;
+  }
 }
